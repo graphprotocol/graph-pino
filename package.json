@@ -1,0 +1,29 @@
+{
+  "name": "@graphprotocol/graph-pino",
+  "version": "0.1.0",
+  "description": "Pino formatter for The Graph",
+  "main": "src/index.js",
+  "bin": {
+    "graph-pino": "bin/graph-pino"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/graphprotocol/graph-pino.git"
+  },
+  "author": "Graph Protocol, Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/graphprotocol/graph-pino/issues"
+  },
+  "homepage": "https://github.com/graphprotocol/graph-pino#readme",
+  "devDependencies": {
+    "prettier": "^2.1.2"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "pino-tiny": "^1.0.0"
+  }
+}
