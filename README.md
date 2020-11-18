@@ -28,7 +28,7 @@ yarn add global @graphprotocol/graph-pino
 graph-indexer-service ... | graph-pino
 
 # Indexer agent
-graph-indexer-service ... | graph-pino
+graph-indexer-agent ... | graph-pino
 ```
 
 # License
