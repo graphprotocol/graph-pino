@@ -1,6 +1,6 @@
 {
   "name": "@graphprotocol/graph-pino",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Pino formatter for The Graph",
   "main": "src/index.js",
   "bin": {
