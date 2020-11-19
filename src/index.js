@@ -34,6 +34,14 @@ function filter(data) {
     msg += `, channel: ${data.channel || data.channelId}`
   }
 
+  if (data.version) {
+    msg += `, version: ${data.version}`
+  }
+
+  if (data.minimumVersion) {
+    msg += `, minimumVersion: ${data.minimumVersion}`
+  }
+
   if (data.err) {
     msg += `, err: ${
       data.err.message
