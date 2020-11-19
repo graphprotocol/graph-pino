@@ -26,6 +26,10 @@ function filter(data) {
     msg += `, indexer: ${data.indexer}`
   }
 
+  if (data.url || data.indexerUrl) {
+    msg += `, url: ${data.url || data.indexerUrl}`
+  }
+
   if (data.allocation || data.allocationId) {
     msg += `, allocation: ${data.allocation || data.allocationId}`
   }
